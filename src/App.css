@@ -1,0 +1,52 @@
+
+
+.App {
+  margin:0;
+  padding:0;
+  background-color: #468ba2;
+	color: #fff;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+input[type=checkbox] {
+	margin-right: 0;
+}
+h2{
+  margin: 10px 0 20px;
+	text-align: center;
+}
+.App_container{
+  background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content:center;
+  flex-direction: column;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 450px;
+	width: 320px;
+  border-radius:10px;
+} button{
+  border: none;
+  color: black;
+  padding: 6px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  font-size:20px;
+  cursor: pointer;
+
+}
+span{
+	background-color: rgb(255, 255, 255);
+	padding:5px 2px;
+	color: black;
+}
